@@ -16,6 +16,4 @@ Kilenc feltétel, mindegyikben azonos feladatkészlet és azonos ügynök, ismé
 
 Az utolsó mérőszám egyszerű diff-ellenőrzéssel megállapítható, mérlegelés és szubjektív ítélet nélkül. Ha a megadott hibahely a cache.py, a hiba valójában máshol van, és az ügynök mégis módosítja a cache.py-t, ez egyértelműen kimutatható.
 
-A vizsgálat fő kérdése a táblázat jobb alsó cellája: egy jól megírt kontextusfájl ellenállóbbá teszi-e az ügynököt a téves fejlesztői feltételezéssel szemben, vagy csak további követendő utasításokat ad hozzá.
-
 Az eredmény két részből áll: magából a vizsgálatból, valamint egy újrahasznosítható mérőkeretrendszerből és feladatkészletből, amelyet publikálok. Ha a mért hatások kicsinek bizonyulnak, a keretrendszer önmagában is felhasználható marad, egy vitatott kérdésben megfelelő statisztikai erővel kimutatott null eredmény pedig szintén érvényes eredmény.
